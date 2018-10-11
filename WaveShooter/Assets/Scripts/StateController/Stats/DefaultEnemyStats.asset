@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f895e593a82987f40b0f96c6f6eaaaf9, type: 3}
+  m_Name: DefaultEnemyStats
+  m_EditorClassIdentifier: 
+  moveSpeed: 3
+  lookRange: 40
+  lookSphereCastRadius: 1
+  healthStat:
+    health: 10
+    currentHealth: 10
+  Health: 20
+  attackRange: 1
+  attackRate: 1
+  attackForce: 5
+  attackDamage: 10
+  canFlee: 1
+  bravery: 10
+  teamID: 1
+  impactEffect: {fileID: 11400000, guid: a4422e14377495e40818d2791f6229c4, type: 2}
+  deathEffect: {fileID: 11400000, guid: 42494ca688496db47b3630b2b537f89f, type: 2}

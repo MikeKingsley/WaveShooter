@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f895e593a82987f40b0f96c6f6eaaaf9, type: 3}
+  m_Name: RedTeam
+  m_EditorClassIdentifier: 
+  moveSpeed: 1.5
+  lookRange: 40
+  lookSphereCastRadius: 10
+  Health: 100
+  attackRange: 2.02
+  attackRate: 1
+  attackForce: 10
+  attackDamage: 1
+  canFlee: 1
+  bravery: 10
+  teamID: 2
+  impactEffect: {fileID: 11400000, guid: a4422e14377495e40818d2791f6229c4, type: 2}
+  deathEffect: {fileID: 11400000, guid: 2335edbb6e02c924d85568fd5f27df89, type: 2}
